@@ -78,7 +78,7 @@ const flowMontaje = addKeyword([
 ])
   .addAnswer("🔧 Aquí tienes el vídeo de montaje que necesitas:")
   .addAnswer("Vídeo", {
-    media: path.join(__dirname, "montaje.mp4"),
+    media: "http://localhost:3001/video",
   })
   .addAnswer(
     "¿Has conseguido montarlo correctamente?",
@@ -116,4 +116,6 @@ const main = async () => {
   QRPortalWeb();
 };
 
-main();
+main().catch((err) => {
+  console.error("Error ejecutando el bot:", err);
+});;

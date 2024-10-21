@@ -19,11 +19,11 @@
     "cache-manager": "5.2.4",
     "express": "^4.21.1",
     "mime-types": "2.1.35",
-    "mongodb": "^4.17",
+    "mongodb": "^4.17.2",
     "wa-sticker-formatter": "4.4.4"
   },
   "devDependencies": {
-    "eslint": "^8.52.0",
+    "eslint": "^8.57.1",
     "eslint-plugin-bot-whatsapp": "latest"
   },
   "author": "",
