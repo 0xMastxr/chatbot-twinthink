@@ -183,16 +183,11 @@ const flowBucle = addKeyword(["latorremakinacrackfiguramaricon"]).addAnswer(
  * Configuración principal
  */
 const main = async () => {
-  const adapterDB = new MongoAdapter({
-    dbUri: MONGO_DB_URI,
-    dbName: MONGO_DB_NAME,
-  });
   const adapterProvider = createProvider(BaileysProvider);
   const adapterFlow = createFlow([flowBucle]);
   createBot({
     flow: adapterFlow,
     provider: adapterProvider,
-    database: adapterDB,
   });
   QRPortalWeb();
 };
