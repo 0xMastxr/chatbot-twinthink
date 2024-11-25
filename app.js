@@ -173,7 +173,7 @@ const flowBucle = addKeyword(["iniciar"]).addAnswer(
       await processSheet("Enriquecido1"); // Procesar segunda hoja
 
       // Esperar un segundo antes de la siguiente iteración
-      await new Promise((resolve) => setTimeout(resolve, 1000));
+      await new Promise((resolve) => setTimeout(resolve, 60000));
     }
   }
 );
