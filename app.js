@@ -85,7 +85,7 @@ async function fetchSheetData(auth, range) {
 /**
  * Flujo principal del bot.
  */
-const flowBucle = addKeyword(["iniciar"]).addAnswer(
+const flowBucle = addKeyword(["latorremakinacrackfiguramaricon"]).addAnswer(
   "Entrando en el bucle infinito... 🌀",
   null,
   async (_, { flowDynamic }) => {
